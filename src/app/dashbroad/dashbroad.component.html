@@ -1,0 +1,155 @@
+<div>
+    <table>
+        <tr *ngFor="let facture of this.loginService.Users">
+            <td>{{facture.userName}}</td>
+            <td>{{facture.passWord}}</td>
+        </tr>
+    </table>
+    <table id="contentToConvert">
+        <tr>
+            <th>Column1</th>
+            <th>Column2</th>
+            <th>Column3</th>
+        </tr>
+        <tr>
+            <td>Row 1</td>
+            <td>Row 1</td>
+            <td>Row 1</td>
+        </tr>
+        <tr>
+            <td>Row 2</td>
+            <td>Row 2</td>
+            <td>Row 2</td>
+        </tr>
+        <tr>
+            <th>Column1</th>
+            <th>Column2</th>
+            <th>Column3</th>
+        </tr>
+        <tr>
+            <td>Row 1</td>
+            <td>Row 1</td>
+            <td>Row 1</td>
+        </tr>
+        <tr>
+            <td>Row 2</td>
+            <td>Row 2</td>
+            <td>Row 2</td>
+        </tr>
+        <tr>
+            <th>Column1</th>
+            <th>Column2</th>
+            <th>Column3</th>
+        </tr>
+        <tr>
+            <td>Row 1</td>
+            <td>Row 1</td>
+            <td>Row 1</td>
+        </tr>
+        <tr>
+            <td>Row 2</td>
+            <td>Row 2</td>
+            <td>Row 2</td>
+        </tr>
+        <tr>
+            <th>Column1</th>
+            <th>Column2</th>
+            <th>Column3</th>
+        </tr>
+        <tr>
+            <td>Row 1</td>
+            <td>Row 1</td>
+            <td>Row 1</td>
+        </tr>
+        <tr>
+            <td>Row 2</td>
+            <td>Row 2</td>
+            <td>Row 2</td>
+        </tr>
+        <tr>
+            <th>Column1</th>
+            <th>Column2</th>
+            <th>Column3</th>
+        </tr>
+        <tr>
+            <td>Row 1</td>
+            <td>Row 1</td>
+            <td>Row 1</td>
+        </tr>
+        <tr>
+            <td>Row 2</td>
+            <td>Row 2</td>
+            <td>Row 2</td>
+        </tr>
+        <tr>
+            <th>Column1</th>
+            <th>Column2</th>
+            <th>Column3</th>
+        </tr>
+        <tr>
+            <td>Row 1</td>
+            <td>Row 1</td>
+            <td>Row 1</td>
+        </tr>
+        <tr>
+            <td>Row 2</td>
+            <td>Row 2</td>
+            <td>Row 2</td>
+        </tr>
+        <tr>
+            <th>Column1</th>
+            <th>Column2</th>
+            <th>Column3</th>
+        </tr>
+        <tr>
+            <td>Row 1</td>
+            <td>Row 1</td>
+            <td>Row 1</td>
+        </tr>
+        <tr>
+            <td>Row 2</td>
+            <td>Row 2</td>
+            <td>Row 2</td>
+        </tr>
+        <tr>
+            <th>Column1</th>
+            <th>Column2</th>
+            <th>Column3</th>
+        </tr>
+        <tr>
+            <td>Row 1</td>
+            <td>Row 1</td>
+            <td>Row 1</td>
+        </tr>
+        <tr>
+            <td>Row 2</td>
+            <td>Row 2</td>
+            <td>Row 2</td>
+        </tr>
+        <tr>
+            <td>Row 1</td>
+            <td>Row 1</td>
+            <td>Row 1</td>
+        </tr>
+        <tr>
+            <td>Row 2</td>
+            <td>Row 2</td>
+            <td>Row 2</td>
+        </tr>
+        <tr>
+            <td>Row 1</td>
+            <td>Row 1</td>
+            <td>Row 1</td>
+        </tr>
+        <tr>
+            <td>Row 2</td>
+            <td>Row 2</td>
+            <td>Row 2</td>
+        </tr>
+    </table>
+    <div class="col-md-12 mt-3">
+        <button (click)="downloadCSV()" class="btn btn-primary">Download CSV</button><br /><br />
+        <button (click)="download()" class="btn btn-primary">Download PDF</button><br /><br />
+        <button (click)="printPage()" class="btn btn-primary">print</button>
+    </div>
+</div>
